@@ -1,4 +1,4 @@
-package ch03;
+package chapterExamples;
 public class CarApplication {
 
 	public static void main(String[] args) {

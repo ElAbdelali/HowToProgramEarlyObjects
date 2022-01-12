@@ -21,7 +21,7 @@ last name and date of birth—then calculates and prints the person’s age in (
 
 */
 
-package ch03;
+package chapterExamples;
 
 public class HeartRates {
 	
