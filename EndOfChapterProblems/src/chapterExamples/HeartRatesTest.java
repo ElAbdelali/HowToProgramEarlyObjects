@@ -22,6 +22,7 @@ public class HeartRatesTest {
         
         HeartRates user1 = new HeartRates(fName, lName, tmpdob[0], tmpdob[1], tmpdob[2]);
         printInfo(user1);
+        input.close();
 	}
         private static void printInfo(HeartRates user){
             System.out.printf("%s %s\n%s - %d years of age\nMax HeartRate: %d\n",
