@@ -4,10 +4,11 @@ Repo consists of End of Chapter problems from the Textbook: Java How to Program,
 Will update the README with which chapter problems I've completed as I complete them. 
 
 Chapter 03: 
+
 3.12 (Class PetrolPurchase) 
     Create a class called PetrolPurchase to represent information about the petrol you purchase. The class should include five pieces of information in the form of
     instance variables—the station’s location (type String), the type of petrol (type String), the quan- tity (type int) of the purchase in liters, the price per liter (double), and the percentage discount (double). Your class should have a constructor that initializes the five instance variables. Provide a set and a get method for each instance variable. In addition, provide a method named getPurchase- Amount that calculates the net purchase amount (i.e., multiplies the quantity by the price per liter) minus the discount, then returns the net amount you had to pay as a double value. Write an appli- cation class named Petrol that demonstrates the capabilities of class PetrolPurchase.
-    
+
 3.13 (Car Class) 
      Create a class called Car that includes three instance variables—a model (type String), a year (type String), and a price (double). Provide a constructor that initializes the three instance variables. Provide a set and a get method for each instance variable. If the price is not positive, do not set its value. Write a test application named CarApplication that demonstrates class Car’s ca- pabilities. Create two Car objects and display each object’s price. Then apply a 5% discount on the price of the first car and a 7% discount on the price of the second. Display each Car’s price again.
      
