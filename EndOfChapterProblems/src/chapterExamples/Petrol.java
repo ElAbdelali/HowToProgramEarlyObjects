@@ -13,9 +13,9 @@ public class Petrol {
 				purchase2.getLocation(), purchase2.getPetrol(), purchase2.getQuantity(), purchase2.getPrice(), purchase2.getDiscount());
 		
 		System.out.printf("%n%nThe net amount paid in the first purchase is: $%.2f", 
-				purchase1.getNetPurchase());
+				purchase1.getNetPurchaseAmount());
 		System.out.printf("%nThe net amount paid in the second purchase is: $%.2f", 
-				purchase2.getNetPurchase());
+				purchase2.getNetPurchaseAmount());
 
 	}
 

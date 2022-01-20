@@ -50,10 +50,10 @@ public class PetrolPurchase {
 		return discount;
 	}
 
-	public void setNetPurchase(double netPurchaseAmount) {
+	public void setNetPurchaseAmount(double netPurchaseAmount) {
 		this.netPurchaseAmount = netPurchaseAmount;
 	}
-	public double getNetPurchase() {
+	public double getNetPurchaseAmount() {
 		return netPurchaseAmount = ((double) (price - (price * discount)) * quantity);
 	}
 	

@@ -1,10 +1,15 @@
 package chapterExamples;
 
 public class CreditLimitCalculator {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	
+	private int accNumber, beginBal, totalCharge, totalCredit, allowedCredit;
+	
+	public CreditLimitCalculator(int accNumber, int beginBal, int totalCharge, int totalCredit, int allowedCredit) {
+		this.accNumber = accNumber;
+		this.beginBal = beginBal;
+		this.totalCharge = totalCharge;
+		this.totalCredit = totalCredit;
+		this.allowedCredit = allowedCredit;
 	}
 
 }
