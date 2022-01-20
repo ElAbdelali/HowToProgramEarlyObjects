@@ -19,18 +19,18 @@ Chapter 03:
 Chapter 04:
 
 4.17: (Gas Mileage)
-
     Drivers are concerned with the mileage their automobiles get. One driver has kept track of several trips by recording the miles driven and gallons used for each tank-full. Develop a Java application that will input the miles driven and gallons used (both as integers) for each trip. The program should calculate and display the miles per gallon obtained for each trip and print the combined miles per gallon obtained for all trips up to this point. All averaging calculations should produce floating-point results. Use class Scanner and sentinel-controlled iteration to obtain the data from the user.
 
 4.18 (Credit Limit Calculator) 
+    Develop a Java application that determines whether any of several department-store customers has exceeded the credit limit on a charge account. For each customer, the following facts are available:
 
-    Develop a Java application that determines whether any of several department-store customers has exceeded the credit limit on a charge account. For each customer,   the following facts are available:
         a) account number
         b) balance at the beginning of the month
         c) total of all items charged by the customer this month
         d) total of all credits applied to the customer’s account this month
         e) this month allowed credit limit
-    The program should input all these facts as integers, calculate the new balance (= beginning balance + charges – credits), display the new balance and determine whether the new balance exceeds the customer’s credit limit. For those customers whose credit limit is exceeded, the program should dis- play the message "Credit limit exceeded".
+        
+    The program should input all these facts as integers, calculate the new balance (= beginning balance + charges – credits), display the new balance and determine whether the new balance exceeds the customer’s credit limit. For those customers whose credit limit is exceeded, the program should display the message "Credit limit exceeded".
    
     
 
