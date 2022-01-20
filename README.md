@@ -16,7 +16,7 @@ Chapter 03:
     While exercising, you can use a heart-rate monitor to see that your heart rate stays within a safe range suggested by your trainers and doctors. According to
     The American Heart Association (AHA) (http://bit.ly/TargetHeartRates), the formula for cal- culating your maximum heart rate in beats per minute is 220 minus your age in years. Your target heart rate is a range that’s 50–85% of your maximum heart rate. [Note: These formulas are estimates provided by the AHA. Maximum and target heart rates may vary based on the health, fitness and gender of the individual. Always consult a physician or qualified health-care professional before beginning or modifying an exercise program.] Create a class called HeartRates. The class attributes should include the person’s first name, last name and date of birth (consisting of separate attributes for the month, day and year of birth). Your class should have a constructor that receives this data as parameters. For each attribute provide set and get methods. The class also should include a method that calculates and returns the person’s age (in years), a method that calculates and returns the per- son’s maximum heart rate and a method that calculates and returns the person’s target heart rate. Write a Java app that prompts for the person’s information, instantiates an object of class Heart- Rates and prints the information from that object—including the person’s first name, last name and date of birth—then calculates and prints the person’s age in (years), maximum heart rate and target- heart-rate range.
 
-Chapter 4
+Chapter 04:
 
 4.17: (Gas Mileage)
 
@@ -25,13 +25,11 @@ Chapter 4
 4.18 (Credit Limit Calculator) 
 
     Develop a Java application that determines whether any of several department-store customers has exceeded the credit limit on a charge account. For each customer,   the following facts are available:
-    
         a) account number
         b) balance at the beginning of the month
         c) total of all items charged by the customer this month
         d) total of all credits applied to the customer’s account this month
         e) this month allowed credit limit
-    
     The program should input all these facts as integers, calculate the new balance (= beginning balance + charges – credits), display the new balance and determine whether the new balance exceeds the customer’s credit limit. For those customers whose credit limit is exceeded, the program should dis- play the message "Credit limit exceeded".
    
     
