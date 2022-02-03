@@ -6,11 +6,10 @@ public class TwoLargestNumbers {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("Please enter the amount of numbers you'd like to input: ");
-		int counter = input.nextInt();
+		int counter = 10;
 		int largest = 0;
 		int secondLargest = 0;
-		System.out.printf("Enter the numbers:%n");
+		System.out.printf("Enter the 10 numbers:%n");
 
 		while (counter > 0) {
 			int number = input.nextInt();
