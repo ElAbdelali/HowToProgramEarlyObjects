@@ -21,6 +21,14 @@ Chapter 04:
 4.17: (Gas Mileage)
     Drivers are concerned with the mileage their automobiles get. One driver has kept track of several trips by recording the miles driven and gallons used for each tank-full. Develop a Java application that will input the miles driven and gallons used (both as integers) for each trip. The program should calculate and display the miles per gallon obtained for each trip and print the combined miles per gallon obtained for all trips up to this point. All averaging calculations should produce floating-point results. Use class Scanner and sentinel-controlled iteration to obtain the data from the user.
 
+4.21: (Find the Largest Number)
+	The process of finding the largest value is used frequently in computer applications. For example, a program that determines the winner of a sales contest would input the number of units sold by each salesperson. The salesperson who sells the most units wins the contest. Write a pseudocode program, then a Java application that inputs a series of 10 integers and determines and prints the largest integer. Your program should use at least the following three variables:
+	
+	a) counter: A counter to count to 10 (i.e., to keep track of how many numbers 
+	   have been input and to determine when all 10 numbers have been processed).
+	b) number:Theintegermostrecentlyinputbytheuser. 
+	c) largest: The largest number found so far.
+	
 4.22: (Tabular Output)
 	Write a Java application that uses looping to print the following table of values:
 	
@@ -30,6 +38,9 @@ Chapter 04:
 	3 	9 	27 	81 
 	4 	16 	64 	256 
 	5 	25 	125 	625
+
+4.23: (Find the Two Largest Numbers)
+	Using an approach similar to that for Exercise 4.21, find the two largest values of the 10 values entered. [Note: You may input each number only once.]	
 	
 	
 	
