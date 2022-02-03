@@ -23,6 +23,7 @@ Chapter 04:
 
 4.22: (Tabular Output)
 	Write a Java application that uses looping to print the following table of values:
+	
 	N 	N2 	N3 	N4
 	1	1	1	1
 	2 	4 	8 	16 
