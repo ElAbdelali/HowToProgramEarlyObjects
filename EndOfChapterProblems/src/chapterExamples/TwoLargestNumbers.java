@@ -15,11 +15,11 @@ public class TwoLargestNumbers {
 			int number = input.nextInt();
 			
 			if(number > largest) {
-				secondLargest = largest;
-				largest = number;
+				secondLargest = largest; // secondLargest = 0, 1, 2, 3
+				largest = number; // largest = 1, 2, 3, 4
 			}
 			else if(number > secondLargest) {
-				secondLargest = number;
+				secondLargest = number; // 1, 2, 3, 4
 			}
 			counter--;
 		}
