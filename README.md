@@ -46,7 +46,13 @@ Chapter 04:
 4.23: (Find the Two Largest Numbers)
 	Using an approach similar to that for Exercise 4.21, find the two largest values of the 10 values entered. [Note: You may input each number only once.]	
 	
-	
+
+Chapter 05:
+
+5.11 (Extremes)
+	Write an application that finds the minimum and maximum amongst several integers and then computes the sum of the two extremes. The user will be prompted to input how many values the application should ask the user to input.
+
+
 	
     
 
