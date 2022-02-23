@@ -78,7 +78,6 @@ public class Clock {
 		}
 		else {
 			System.out.print(second);
-
 		}
 	}
 	
