@@ -9,33 +9,6 @@ public class Clock {
 		this.hour = hour;
 		this.minute = minute;
 		this.second = second;
-		/*if(hour < 10) {
-			System.out.print("0" + hour + ":");
-		}
-		if(hour > 23) {
-			System.out.print("00:");
-		}
-		else {
-			System.out.print(hour + ":");
-		}
-		if(minute < 10) {
-			System.out.print("0" + minute + ":");
-		}
-		if(minute > 59) {
-			System.out.print("00:");
-		}
-		else {
-			this.minute = minute;
-		}
-		if(second < 10) {
-			System.out.print("0" + second);
-		}
-		if(second > 59) {
-			System.out.print("00");
-		}
-		else {
-			this.second = second;
-		}*/
 	}
 	
 	public void setHour(int hour) {
