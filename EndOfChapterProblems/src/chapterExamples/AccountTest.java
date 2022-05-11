@@ -7,8 +7,8 @@ public static void main(String[] args) {
    Account account1 = new Account("Jane Green", 50.00);
    Account account2 = new Account("John Blue", 7.53); 
 
-   account1.displayAccount(account1);
-   account2.displayAccount(account2);
+   Account.displayAccount(account1);
+   Account.displayAccount(account2);
 
    // create a Scanner to obtain input from the command window
    Scanner input = new Scanner(System.in);
@@ -20,8 +20,8 @@ public static void main(String[] args) {
    account1.deposit(depositAmount); // add to account1's balance
 
    // display balances
-   account1.displayAccount(account1);
-   account2.displayAccount(account2);
+   Account.displayAccount(account1);
+   Account.displayAccount(account2);
 
    System.out.print("Enter deposit amount for account2: "); // prompt
    depositAmount = input.nextDouble(); // obtain user input
@@ -30,8 +30,8 @@ public static void main(String[] args) {
    account2.deposit(depositAmount); // add to account2 balance
 
    // display balances
-   account1.displayAccount(account1);
-   account2.displayAccount(account2);
+   Account.displayAccount(account1);
+   Account.displayAccount(account2);
 
    System.out.printf("Enter withdraw amount for account1: ");
    double withdrawAmount = input.nextDouble();
@@ -39,8 +39,8 @@ public static void main(String[] args) {
    account1.withdraw(withdrawAmount);
 
    // display balances
-   account1.displayAccount(account1);
-   account2.displayAccount(account2);
+   Account.displayAccount(account1);
+   Account.displayAccount(account2);
 
    System.out.printf("Enter withdraw amount for account2: ");
    withdrawAmount = input.nextDouble();
@@ -48,8 +48,8 @@ public static void main(String[] args) {
    account2.withdraw(withdrawAmount);
 
    // display balances
-   account1.displayAccount(account1);
-   account2.displayAccount(account2);
+   Account.displayAccount(account1);
+   Account.displayAccount(account2);
       
    
    
