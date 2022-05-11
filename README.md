@@ -36,6 +36,22 @@ Chapter 04:
 4.17: (Gas Mileage)
     Drivers are concerned with the mileage their automobiles get. One driver has kept track of several trips by recording the miles driven and gallons used for each tank-full. Develop a Java application that will input the miles driven and gallons used (both as integers) for each trip. The program should calculate and display the miles per gallon obtained for each trip and print the combined miles per gallon obtained for all trips up to this point. All averaging calculations should produce floating-point results. Use class Scanner and sentinel-controlled iteration to obtain the data from the user.
 
+4.18 (Credit Limit Calculator) 
+
+Develop a Java application that determines whether any of sev- eral department-store customers has exceeded the credit limit on a charge account. For each customer, the following facts are available: 
+	a) account number
+	b) balance at the beginning of the month
+	c) total of all items charged by the customer this month
+	d) total of all credits applied to the customer’s account this month
+	e) allowed credit limit
+The program should input all these facts as integers, calculate the new balance (= beginning balance + charges – credits), display the new balance and determine whether the new balance exceeds the customer’s credit limit. For those customers whose credit limit is exceeded, the program should dis- play the message "Credit limit exceeded".
+
+4.19: (Sales Commission Calculator)
+	A large company pays its salespeople on a commission basis. The salespeople receive $200 per week plus 9% of their gross sales for that week. For example, a salesperson who sells $5,000 worth of merchandise in a week receives $200 plus 9% of $5,000, or a total of $650. You’ve been supplied with a list of the items sold by each salesperson. The values of these items are shown in Fig. 4.33. Develop a Java application that inputs one salesperson’s items sold for last week and calculates and displays that salesperson’s earnings. There’s no limit to the number of items that can be sold.
+	
+	(I Took a different approach and made the getters and setters fetch the input prices while asking the user to input the amount of items
+	sold via a Scanner object) 
+
 4.21: (Find the Largest Number)
 	The process of finding the largest value is used frequently in computer applications. For example, a program that determines the winner of a sales contest would input the number of units sold by each salesperson. The salesperson who sells the most units wins the contest. Write a pseudocode program, then a Java application that inputs a series of 10 integers and determines and prints the largest integer. Your program should use at least the following three variables:
 	
@@ -43,11 +59,6 @@ Chapter 04:
 	   have been input and to determine when all 10 numbers have been processed).
 	b) number:Theintegermostrecentlyinputbytheuser. 
 	c) largest: The largest number found so far.
-4.19: (Sales Commission Calculator)
-	A large company pays its salespeople on a commission basis. The salespeople receive $200 per week plus 9% of their gross sales for that week. For example, a salesperson who sells $5,000 worth of merchandise in a week receives $200 plus 9% of $5,000, or a total of $650. You’ve been supplied with a list of the items sold by each salesperson. The values of these items are shown in Fig. 4.33. Develop a Java application that inputs one salesperson’s items sold for last week and calculates and displays that salesperson’s earnings. There’s no limit to the number of items that can be sold.
-	
-	(I Took a different approach and made the getters and setters fetch the input prices while asking the user to input the amount of items
-	sold via a Scanner object) 
 4.22: (Tabular Output)
 	Write a Java application that uses looping to print the following table of values:
 	
