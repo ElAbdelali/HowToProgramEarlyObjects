@@ -1,19 +1,14 @@
 package chapterExamples;
 
-//Fig. 3.9: AccountTest.java
-//Inputting and outputting floating-point numbers with Account objects.
 import java.util.Scanner;
 
 public class AccountTest {
 public static void main(String[] args) {
    Account account1 = new Account("Jane Green", 50.00);
-   Account account2 = new Account("John Blue", -7.53); 
+   Account account2 = new Account("John Blue", 7.53); 
 
-   // display initial balance of each object
-   System.out.printf("%s balance: $%.2f%n",
-      account1.getName(), account1.getBalance()); 
-   System.out.printf("%s balance: $%.2f%n%n",
-      account2.getName(), account2.getBalance()); 
+   account1.displayAccount(account1);
+   account2.displayAccount(account2);
 
    // create a Scanner to obtain input from the command window
    Scanner input = new Scanner(System.in);
@@ -25,10 +20,8 @@ public static void main(String[] args) {
    account1.deposit(depositAmount); // add to account1's balance
 
    // display balances
-   System.out.printf("%s balance: $%.2f%n",
-      account1.getName(), account1.getBalance()); 
-   System.out.printf("%s balance: $%.2f%n%n",
-      account2.getName(), account2.getBalance()); 
+   account1.displayAccount(account1);
+   account2.displayAccount(account2);
 
    System.out.print("Enter deposit amount for account2: "); // prompt
    depositAmount = input.nextDouble(); // obtain user input
@@ -37,10 +30,8 @@ public static void main(String[] args) {
    account2.deposit(depositAmount); // add to account2 balance
 
    // display balances
-   System.out.printf("%s balance: $%.2f%n", 
-      account1.getName(), account1.getBalance()); 
-   System.out.printf("%s balance: $%.2f%n%n",
-      account2.getName(), account2.getBalance()); 
+   account1.displayAccount(account1);
+   account2.displayAccount(account2);
 
    System.out.printf("Enter withdraw amount for account1: ");
    double withdrawAmount = input.nextDouble();
@@ -48,10 +39,8 @@ public static void main(String[] args) {
    account1.withdraw(withdrawAmount);
 
    // display balances
-   System.out.printf("%s balance: $%.2f%n", 
-      account1.getName(), account1.getBalance()); 
-   System.out.printf("%s balance: $%.2f%n%n",
-      account2.getName(), account2.getBalance()); 
+   account1.displayAccount(account1);
+   account2.displayAccount(account2);
 
    System.out.printf("Enter withdraw amount for account2: ");
    withdrawAmount = input.nextDouble();
@@ -59,13 +48,11 @@ public static void main(String[] args) {
    account2.withdraw(withdrawAmount);
 
    // display balances
-   System.out.printf("%s balance: $%.2f%n", 
-      account1.getName(), account1.getBalance()); 
-   System.out.printf("%s balance: $%.2f%n%n",
-      account2.getName(), account2.getBalance()); 
+   account1.displayAccount(account1);
+   account2.displayAccount(account2);
       
    
    
-	} 
+	} 	
 } 
 
