@@ -73,7 +73,9 @@ The program should input all these facts as integers, calculate the new balance 
 
 4.23: (Find the Two Largest Numbers)
 	Using an approach similar to that for Exercise 4.21, find the two largest values of the 10 values entered. [Note: You may input each number only once.]	
-	
+
+4.24: (Validating User Input) 
+	Modify the program in Fig. 4.12 to validate its inputs. For any input, if the value entered is other than 1 or 2, keep looping until the user enters a 	correct value.	
 
 Chapter 05:
 
