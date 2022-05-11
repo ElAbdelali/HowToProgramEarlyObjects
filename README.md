@@ -4,6 +4,8 @@ Repo consists of End of Chapter problems from the Textbook: Java How to Program,
 Will update the README with which chapter problems I've completed as I complete them. 
 
 Chapter 03: 
+3.11 (Modified Account Class) 
+	Modify class Account (Fig. 3.8) to provide a method called with- draw that withdraws money from an Account. Ensure that the withdrawal amount does not 	exceed the Account’s balance. If it does, the balance should be left unchanged and the method should print a message indicating "Withdrawal amount 		exceeded account balance." Modify class AccountTest (Fig. 3.9) to test method withdraw.
 
 3.12 (Class PetrolPurchase) 
     Create a class called PetrolPurchase to represent information about the petrol you purchase. The class should include five pieces of information in the form of
@@ -59,6 +61,7 @@ Chapter 05:
 	A right triangle can have sides whose lengths are all integers. The set of three integer values for the lengths of the sides of a right triangle is called a Pythagorean triple. The lengths of the three sides must satisfy the relationship that the sum of the squares of two of the sides is equal to the square of the hypotenuse. Write an application that displays a table of the Pythagorean triples for side1, side2 and the hypotenuse, all no larger than 500. Use a triple-nested for loop that tries all possibilities. This method is an example of “brute-force” computing. You’ll learn in more advanced computer-science courses that for many interesting problems there’s no known algorithmic approach other than using sheer brute force.
 	
 Chapter 06:
+
 6.14 (Floor and Ceil) 
 	Write two methods myFloor and myCeil that take a positive double num variable int myFloor(double num) and int myCeil(double num). The myFloor method takes num and returns the largest integer number that is less than or equal to x. The myCeil function takes num and finds the smallest number that is greater than or equal to x. Do not use any Math class methods. Incorporate this method into an application that sends a double value to the functions and tests their ability to calculate the required output.
 
@@ -70,3 +73,26 @@ Chapter 06:
 
 6.26 (Calculating the Sum of Digits) 
 	Write a method that takes a four-digit integer value and returns the sum of the digits. For example, given the number 7631, the method should return 17. Incorporate the method into an application that reads a value from the user and displays the result.
+	
+Chapter 07:
+
+7.9 Consider a two-by-three Integer Array t.
+
+	a) Write a statement that declares and creates t.
+	b) How many rows does t have?
+	c) How many columns does t have?
+	d) How many elements does t have?
+	e) Write access expressions for all the elements in row 1 of t.
+	f) Write access expressions for all the elements in column 2 of t.
+	g) Write a single statement that sets the element of t in row 0 and column 1 to zero.
+	h) Write individual statements to initialize each element of t to zero.
+	i) Write a nested for statement that initializes each element of t to zero.
+	j) Write a nested for statement that inputs the values for the elements of t from the user.
+	k) Write a series of statements that determines and displays the smallest value in t.
+	l) Write a single printf statement that displays the elements of the first row of t.
+	m) Write a statement that totals the elements of the third column of t. Do not use iteration.
+	n) Write a series of statements that displays the contents of t in tabular format. List the
+	column indices as headings across the top, and list the row indices at the left of each row.
+
+
+
