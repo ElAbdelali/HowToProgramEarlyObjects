@@ -6,9 +6,17 @@ public class ParkingCharges {
 
 	public static void main(String[] args) {
 		
-		double owe = calculateCharges(24);
-		System.out.printf("You owe: $" + owe);
+		double owe = calculateCharges(1);
+		double owe2 = calculateCharges(4);
+		double owe3 = calculateCharges(19);
+		double owe4 = calculateCharges(24);
+
 		
+		System.out.printf("You owe: $%.2f", owe);
+		System.out.printf("%nYou owe: $%.2f", owe2);
+		System.out.printf("%nYou owe: $%.2f", owe3);
+		System.out.printf("%nYou owe: $%.2f", owe4);
+
 		
 	}
 	
