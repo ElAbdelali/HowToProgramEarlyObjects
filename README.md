@@ -97,7 +97,20 @@ Chapter 05:
 
 5.21 (Pythagorean Triples) 
 	A right triangle can have sides whose lengths are all integers. The set of three integer values for the lengths of the sides of a right triangle is called a Pythagorean triple. The lengths of the three sides must satisfy the relationship that the sum of the squares of two of the sides is equal to the square of the hypotenuse. Write an application that displays a table of the Pythagorean triples for side1, side2 and the hypotenuse, all no larger than 500. Use a triple-nested for loop that tries all possibilities. This method is an example of “brute-force” computing. You’ll learn in more advanced computer-science courses that for many interesting problems there’s no known algorithmic approach other than using sheer brute force.
+
+5.23 (De Morgan’s Laws) 
+	In this chapter, we discussed the logical operators &&, &, ||, |, ^ and !. De Morgan’s laws can sometimes make it more convenient for us to express a logical expression. These laws state that the expression !(condition1 && condition2) is logically equivalent to the expres- sion (!condition1 || !condition2). Also, the expression !(condition1 || condition2) is logically equivalent to the expression (!condition1 && !condition2). Use De Morgan’s laws to write equivalent expressions for each of the following, then write an application to show that both the original ex- pression and the new expression in each case produce the same value:
 	
+	a) !(x<5)&&!(y>=7) 
+	b) !(a == b) || !(g != 5) 
+	c) !((x<=8)&&(y>4)) 
+	d) !((i > 4) || (j <= 6))
+
+5.24 (Diamond-Printing Program) 
+	Write an application that prints the following diamond shape. You may use output statements that print a single asterisk (*), a single space or a single new- line character. Maximize your use of iteration (with nested for statements), and minimize the num- ber of output statements.
+
+5.25 (Modified Diamond Printing Program) Modify the application you wrote in Exercise 5.24 to read an odd number in the range 1 to 19 to specify the number of rows in the diamond. Your program should then display a diamond of the appropriate size.
+
 Chapter 06:
 
 6.14 (Floor and Ceil) 
