@@ -136,25 +136,6 @@ Chapter 06:
 6.28 (Sports Recommender)
 	Write a method sportsRecommender that inputs a Celsius temperature and returns “It’s lovely weather for sports today!” if it’s 20–30 °C, “It’s reasonable weather for sports today.” if it’s 10–40 °C, and “Please exercise with care today, watch out for the weather!” otherwise. Create an application to test the method.
 	
-Chapter 07:
-
-7.9 Consider a two-by-three Integer Array t.
-
-	a) Write a statement that declares and creates t.
-	b) How many rows does t have?
-	c) How many columns does t have?
-	d) How many elements does t have?
-	e) Write access expressions for all the elements in row 1 of t.
-	f) Write access expressions for all the elements in column 2 of t.
-	g) Write a single statement that sets the element of t in row 0 and column 1 to zero.
-	h) Write individual statements to initialize each element of t to zero.
-	i) Write a nested for statement that initializes each element of t to zero.
-	j) Write a nested for statement that inputs the values for the elements of t from the user.
-	k) Write a series of statements that determines and displays the smallest value in t.
-	l) Write a single printf statement that displays the elements of the first row of t.
-	m) Write a statement that totals the elements of the third column of t. Do not use iteration.
-	n) Write a series of statements that displays the contents of t in tabular format. List the
-	column indices as headings across the top, and list the row indices at the left of each row.
 
 
 
