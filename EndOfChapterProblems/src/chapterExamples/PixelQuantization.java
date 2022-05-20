@@ -18,7 +18,7 @@ public class PixelQuantization {
 		
 		System.out.printf("The values of the array are:%n");
 		for(int value = 0; value < pixelQuantization.length; value++) { 
-		System.out.printf("Index:     Array Value:%n%5d%10d%n ", value+1, pixelQuantization[value]);
+		System.out.printf("Index:%d     Array Value:%d%n ", value+1, pixelQuantization[value]);
 		}
 		
 	}
