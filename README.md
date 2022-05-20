@@ -120,7 +120,7 @@ Chapter 06:
 	Write two methods myFloor and myCeil that take a positive double num variable int myFloor(double num) and int myCeil(double num). The myFloor method takes num and returns the largest integer number that is less than or equal to x. The myCeil function takes num and finds the smallest number that is greater than or equal to x. Do not use any Math class methods. Incorporate this method into an application that sends a double value to the functions and tests their ability to calculate the required output.
 
 6.16 (Multiples) 
-	Write a method isMultiple that determines, for a pair of integers, whether the second integer is a multiple of the first. The method should take two integer arguments and return true if the second is a multiple of the first and false otherwise. [Hint: Use the remainder operator.] Incorporate this method into an application that inputs a series of pairs of integers (one pair at a time) and determines whether the second value in each pair is a multiple of the first.   
+	Write a method isMultiple that determines, for a pair of integers, whether the second integer is a multiple of the first. The method should take two integer arguments and return true if the second is a multiple of the first and false otherwise. [Hint: Use the remainder operator.] Incorporate this method into an application that inputs a series of pairs of integers (one pair at a time) and determines whether the second value in each pair is a multiple of the first.
 
 6.23 (Palindrome Numbers) 
 	A positive integer is a palindrome if its value is the same after reversing the order of the digits in the number. For example, 12321 is a palindrome, but 12563 is not. Write a method that determines whether a number is a palindrome. Use this method in an application that determines whether a number entered by the user is a palindrome or not and prints the result to the console.
@@ -136,6 +136,20 @@ Chapter 06:
 6.28 (Sports Recommender)
 	Write a method sportsRecommender that inputs a Celsius temperature and returns “It’s lovely weather for sports today!” if it’s 20–30 °C, “It’s reasonable weather for sports today.” if it’s 10–40 °C, and “Please exercise with care today, watch out for the weather!” otherwise. Create an application to test the method.
 	
+Chapter 07:
 
+7.10 (Pixel Quantization) 
+
+Use a one-dimensional array to solve the following problem: You want to eventually perform some basic compression on an image. Assume that you will only be operating on a single row of the image, and that pixel colors are represented as simple numbers in the array. You are required to quantize the values of the pixels in the row. In other words, any pixel values appearing in a range will assume a value in that range as indicated below. This creates redundancy that can lead to better compression. Overwrite the original values in the array.
+	a) For 0–20: 10
+	b) For 21–40: 30
+	c) For 41–60: 50
+	d) For 61–80: 70
+	e) For 81–100: 90
+	f) For 101–120: 110
+	g) For 121–140: 130
+	h) For 141–160: 150
+	i) For 161–180: 170, and for all other pixel values, assumed a quantized value of 190
+	Print the array with the new, quantized values.
 
 
