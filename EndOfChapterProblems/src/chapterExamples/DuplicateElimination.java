@@ -13,6 +13,7 @@ public class DuplicateElimination {
 		for(int value = 0; value < array.length; value++) {
 			System.out.printf("%d	%d%n", value, array[value]);
 		}
+		
 		for(int inputValue = 0; inputValue < 10; inputValue++) {
 			System.out.print("Please enter a value between 10-100:");
 			array[inputValue] = input.nextInt();
