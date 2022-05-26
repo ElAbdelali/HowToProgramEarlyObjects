@@ -6,8 +6,8 @@ public class CylinderClass {
 	
 	CylinderClass(double radius, double height) {
 		
-		this.radius = radius;
-		this.height = height;
+		this.setRadius(radius);
+		this.setHeight(height);
 
 	}
 
