@@ -114,7 +114,19 @@ Chapter 05:
 Chapter 06:
 
 6.8 (Parking Charges) 
-	A parking garage charges a $2.00 minimum fee to park for up to three hours. The garage charges an additional $0.50 per hour for each hour or part thereof in excess of three hours. The maximum charge for any given 24-hour period is $10.00. Assume that no car parks for longer than 24 hours at a time. Write an application that calculates and displays the parking charges for each customer who parked in the garage yesterday. You should enter the hours parked for each customer. The program should display the charge for the current customer and should calculate and display the running total of yesterday’s receipts. It should use the method calculateCharges to de- termine the charge for each customer.
+	A parking garage charges a $2.00 minimum fee to park for up to three hours. The garage charges an additional $0.50 per hour for each hour or part thereof in excess of three hours. The maximum charge for any given 24-hour period is $10.00. Assume that no car parks for longer than 24 hours at a time. Write an application that calculates and displays the parking charges for each customer who parked in the garage yesterday. You should enter the hours parked for each customer. The program should display the charge for the current customer and should calculate and display the running total of yesterday’s receipts. It should use the method calculateCharges to determine the charge for each customer.
+	
+6.10 (Rounding Numbers) 
+	To round numbers to specific decimal places, use a statement like 
+		double y = Math.floor(x * 10 + 0.5) / 10;
+	which rounds x to the tenths position (i.e., the first position to the right of the 		decimal point), or 
+		double y = Math.floor(x * 100 + 0.5) / 100;
+	which rounds x to the hundredths position (i.e., the second position to the right of the 	decimal point). 
+	Write an application that defines four methods for rounding a number x in various ways:
+	a) roundToInteger(number)
+	b) roundToTenths(number)
+	c) roundToHundredths(number) 
+	d) roundToThousandths(number)
 
 6.14 (Floor and Ceil) 
 	Write two methods myFloor and myCeil that take a positive double num variable int myFloor(double num) and int myCeil(double num). The myFloor method takes num and returns the largest integer number that is less than or equal to x. The myCeil function takes num and finds the smallest number that is greater than or equal to x. Do not use any Math class methods. Incorporate this method into an application that sends a double value to the functions and tests their ability to calculate the required output.
@@ -135,6 +147,9 @@ Chapter 06:
 
 6.28 (Sports Recommender)
 	Write a method sportsRecommender that inputs a Celsius temperature and returns “It’s lovely weather for sports today!” if it’s 20–30 °C, “It’s reasonable weather for sports today.” if it’s 10–40 °C, and “Please exercise with care today, watch out for the weather!” otherwise. Create an application to test the method.
+	
+6.30 (Guess the Number) 
+	Write an application that plays “guess the number” as follows: Your program chooses the number to be guessed by selecting a random integer in the range 1 to 1000. The application displays the prompt Guess a number between 1 and 1000. The player inputs a first guess. If the player's guess is incorrect, your program should display Too high. Try again. or Too low. Try again. to help the player “zero in” on the correct answer. The program should prompt the user for the next guess. When the user enters the correct answer, display Congratulations. You guessed the number!, and allow the user to choose whether to play again. [Note: The guessing tech- nique employed in this problem is similar to a binary search, which is discussed in Chapter 19, Searching, Sorting and Big O.]
 	
 Chapter 07:
 
