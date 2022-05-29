@@ -201,6 +201,10 @@ Use a one-dimensional array to solve the following problem: Write an application
 	
 Write an application that calculates the average of a series of integers that are passed to method average using a variable-length argument list. Test your method with several calls, each with a different number of arguments.
 
+7.15 (Command-Line Arguments) 
+
+Write a program that takes command-line arguments and computes the average of their maximum and minimum. Make sure there are command-line arguments being passed before you attempt to compute anything.
+
 Chapter 8:
 
 8.4 (Cylinder Class) Create a class Cylinder with attributes radius and height, each of
