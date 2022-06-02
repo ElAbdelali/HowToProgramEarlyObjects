@@ -17,7 +17,7 @@ public class CylinderClass {
 
 	public void setRadius(double radius) {
 		if(radius <= 0) {
-			throw new IllegalArgumentException("The height passed was an invalid value.");
+			throw new IllegalArgumentException("The radius passed was an invalid value.");
 		}
 		this.radius = radius;
 	}

@@ -16,7 +16,7 @@ public class ArcheryGame {
 		System.out.printf("%18s %10s %10s %10s%n","Player 1",    "Player 2",    "Player 3",   "Player 4");
 		for(int i = 0; i < scoresOfPlayers.length; i++) {
 			if(i == 0 || i == 1 || i == 2) {
-				System.out.printf("%dst Shot", i+1);
+				System.out.printf("%d Shot", i+1);
 				for(int j = 0; j < scoresOfPlayers[i].length; j++) {
 					int randomScore = scores.nextInt(11);
 					scoresOfPlayers[i][j] = randomScore;
@@ -34,7 +34,7 @@ public class ArcheryGame {
 		total3 = scoresOfPlayers[0][2] + scoresOfPlayers[1][2] + scoresOfPlayers[2][2];
 		total4 = scoresOfPlayers[0][3] + scoresOfPlayers[1][3] + scoresOfPlayers[2][3];
 		
-		System.out.printf("Total: %11d %10d %10d %10d", total1, total2, total3, total4);
+		System.out.printf("Total: %9d %10d %10d %10d", total1, total2, total3, total4);
 		
 		
 	}
