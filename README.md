@@ -224,10 +224,26 @@ Chapter 8:
 
 8.4 (Cylinder Class) 
 
-Create a class Cylinder with attributes radius and height, each of
-which has a default value of 1. Provide a method that calculates the cylinders’ volume, which is pi multiplied by the square of the radius multiplied by the height. It has set and get methods for both radius and height. The set method should verify that radius and height are positive numbers. Write a program to test class Cylinder.
+Create a class Cylinder with attributes radius and height, each of which has a default value of 1. Provide a method that calculates the cylinders’ volume, which is pi multiplied by the square of the radius multiplied by the height. It has set and get methods for both radius and height. The set method should verify that radius and height are positive numbers. Write a program to test class Cylinder.
 
 8.6 (Savings Account Class) 
 
 Create class SavingsAccount. Use a static variable annualInterestRate to store the annual interest rate for all account holders. Each object of the class contains a private instance variable savingsBalance indicating the amount the saver currently has on deposit. Provide method calculateMonthlyInterest to calculate the monthly interest by multiplying the savingsBalance by annualInterestRate divided by 12—this interest should be added to savingsBalance. Provide a static method modifyInterestRate that sets the annualInterestRate to a new value. Write a program to test class SavingsAccount. Instantiate two savingsAccount objects, saver1 and saver2, with balances of $2000.00 and $3000.00, respectively. Set annualInterestRate to 4%, then calculate the monthly interest for each of 12 months and print the new balances for both savers. Next, set the annualInterestRate to 5%, calculate the next month’s interest and print the new balances for both savers.
+
+
+8.10 (enum type)
+
+Write an enum type Food, whose constants (APPLE, BANANA, CARROT) take two parameters —the type (vegetable or fruit), and number of calories. Write a program to test the Food enum so that it displays the enum names and their information.
+
+8.11 (Complex Numbers) 
+Create a class called Complex for performing arithmetic with complex numbers. Complex numbers have the form
+		
+		realPart + imaginaryPart * i
+		where i is sqrt(–1)
+
+Write a program to test your class. Use floating-point variables to represent the private data of the class. Provide a constructor that enables an object of this class to be initialized when it’s declared. Provide a no-argument constructor with default values in case no initializers are provided. Provide public methods that perform the following operations:
+
+a) Add two Complex numbers: The real parts are added together and the imaginary parts are added together.
+b) Subtract two Complex numbers: The real part of the right operand is subtracted from the real part of the left operand, and the imaginary part of the right operand is subtracted from the imaginary part of the left operand.
+c) Print Complex numbers in the form (realPart, imaginaryPart).
 
