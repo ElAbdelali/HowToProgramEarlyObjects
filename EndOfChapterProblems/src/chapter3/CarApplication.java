@@ -12,7 +12,7 @@ public class CarApplication {
 		System.out.printf("The %s built in %s is worth: %7.2f%n", car1.getModel(), car1.getYear(), car1.getPrice());
 		System.out.printf("The %s built in %s is worth: %7.2f%n", car2.getModel(), car2.getYear(), car2.getPrice());
 		// initializing the values for discountprice1 and 2 
-		discountPrice1 = car1.getPrice() - (car1.getPrice() * 1.05);
+		discountPrice1 = car1.getPrice() - (car1.getPrice() * .05);
 		discountPrice2 = car2.getPrice() - (car2.getPrice() * .07);
 
 		// outputting the values after the discount

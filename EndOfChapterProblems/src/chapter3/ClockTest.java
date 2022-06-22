@@ -4,7 +4,7 @@ public class ClockTest {
 	
 	
 	public static void main(String[] args) {
-		Clock newClock = new Clock(24, 3, 9);
+		Clock newClock = new Clock(24, 3, 60);
 		
 		System.out.print("The time is: ");
 		newClock.setHour(newClock.getHour());

@@ -30,6 +30,10 @@ Modify class AccountTest of Fig. 3.9 to declare method displayAccount (Fig. 3.20
      
 Chapter 04:
 
+4.3 (Add One)
+
+Write four different Java statements that each add 1 to integer variable x.
+
 4.17: (Gas Mileage)
 
 Drivers are concerned with the mileage their automobiles get. One driver has kept track of several trips by recording the miles driven and gallons used for each tank-full. Develop a Java application that will input the miles driven and gallons used (both as integers) for each trip. The program should calculate and display the miles per gallon obtained for each trip and print the combined miles per gallon obtained for all trips up to this point. All averaging calculations should produce floating-point results. Use class Scanner and sentinel-controlled iteration to obtain the data from the user.
@@ -52,6 +56,11 @@ A large company pays its salespeople on a commission basis. The salespeople rece
 	
 	(I Took a different approach and made the getters and setters fetch the input prices while asking the user to input the amount of items
 	sold via a Scanner object) 
+	
+
+4.20 (Tax Calculator) 
+
+Develop a Java application that determines the total tax for each of three citizens. The tax rate is 15% for earnings up to 30,000 USD earned by each citizen and 20% for all earnings in excess of that ceiling. You are given a list with the citizens’ names and their earnings in a given year. Your program should input this information for each citizen, then determine and dis- play the citizen’s total tax. Use class Scanner to input the data.
 
 4.21: (Find the Largest Number)
 
