@@ -4,20 +4,27 @@ import java.util.Scanner;
 
 public class PasswordValidation {
 	
-	Scanner scan = new Scanner(System.in);
 	public static void main(String[] args) {
-		
-		System.out.println("Please enter a password.");
-		System.out.println("The password length should be between "
-				+ "8-15 characters. Must start with the alphabet, "
-				+ "contain at least one uppercase letter "
-				+ "and at least one number");
-		
+		Scanner scan = new Scanner(System.in);
 
+		System.out.printf("Please follow the following:%n"
+				+ "The password length should be between"
+				+ " 8-15 characters.%nMust start with the alphabet,%n"
+				+ "contain at least one uppercase letter%n"
+				+ "and at least one number%n%n"
+				+ "Please enter a password: ");
+		
+		String password = scan.nextLine();
+		
+		if(validatePassword(password)) {
+			System.out.println("The Password you've input meets the criteria.");
+		}else {
+			System.out.println("Invalid input.");
+		}
 	}
 	
 	public static boolean validatePassword(String password) {
-		return password.matches("\D\S+[a-zA-Z]+\d{8,15}");
+		return password.matches("^([A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,15}$");
 	}
 
 }
