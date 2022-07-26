@@ -1,28 +1,42 @@
 package chapter14exercise5;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ManipulatingStrings {
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
+		int specialCharacters = 0;
+		int withoutSpecialCharacters = 0;
+		String[] without = new String[0];
+		String[] with = new String[0];
+		ArrayList<String> inputs = new ArrayList<>();
+		String input = "";
 		
-		String[] listOfStrings = new String[0];
-		
-		System.out.printf("%s", "Enter a String: ");
-		String input = scan.nextLine();
-		
-		while(input != "#") {
-			int i = 0;
-			listOfStrings[i] = input;
-			i++;
-			System.out.printf("%s%n%s", "Please enter another String,", "or \"#\" to exit the application: ");
-			input = scan.nextLine();
-		}
-		
-	
-	
-	
-	}
 
+		while(!input.equals("#")) {
+			System.out.print("Please enter a String or # to exit: ");
+			input = scan.next();
+			
+			if(!input.equals("#")) {
+				inputs.add(input);
+			}
+			
+		}
+		scan.close();
+		String[] stringArray = inputs.toArray(new String[0]);
+
+		
+		for(int i = 0; i < stringArray.length; i++) {
+			if(stringArray[i].matches("\\d\\w\\s")) {
+				
+				withoutSpecialCharacters++;
+			}
+			else {
+				specialCharacters++;
+			}
+		}
+
+	}
 }
