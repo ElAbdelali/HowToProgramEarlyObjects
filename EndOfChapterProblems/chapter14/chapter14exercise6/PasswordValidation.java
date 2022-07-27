@@ -1,6 +1,8 @@
 package chapter14exercise6;
 
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class PasswordValidation {
 	
@@ -24,7 +26,9 @@ public class PasswordValidation {
 	}
 	
 	public static boolean validatePassword(String password) {
-		return password.matches("^([A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,15}$");
+		Pattern regex = Pattern.compile("^[A-Za-z][a-zA-Z\\d\\w\\W]{8,15}$");
+		Matcher matcher = regex.matcher(password);
+		return matcher.find();
 	}
 
 }
