@@ -26,6 +26,8 @@ public class PigLatin {
 		String input = scan.nextLine();
 		
 		printLatinWord(input);
+		scan.close();
+
 		
 	}
 

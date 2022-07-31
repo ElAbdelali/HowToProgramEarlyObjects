@@ -24,6 +24,6 @@ public class RegionMatches {
 		}else {
 			System.out.printf("s1 does not match s2");
 		}
-
+		input.close();
 	}
 }

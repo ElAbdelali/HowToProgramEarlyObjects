@@ -21,7 +21,8 @@ public class LongestWord {
 			
 		}
 		System.out.print(longestString);
-		
+		scan.close();
+
 	}
 
 }

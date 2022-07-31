@@ -21,6 +21,8 @@ public class StringPalindrome {
 		else{
 			System.out.println("The String you entered is not a palindrome.");
 		}
+		scan.close();
+
 	}
 		
 }

@@ -23,6 +23,8 @@ public class PasswordValidation {
 		}else {
 			System.out.println("Invalid input.");
 		}
+		scan.close();
+
 	}
 	
 	public static boolean validatePassword(String password) {
